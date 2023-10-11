@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import logo  from "../assets/logo1.png"
+import logo  from "../assets/11.png"
 const Nav = styled.nav`
     background: linear-gradient(90deg, #0066ff, #33ccff);
-    height: 80px;
+    height: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,7 +72,7 @@ const Logo = styled.img.attrs({
       width: auto;  // Auto to maintain aspect ratio
       height: 60px; // Set a height that fits within the navbar
       cursor: pointer;
-      padding: 10px;  // Optional padding to give some space
+      padding: 20px;  // Optional padding to give some space
   
       @media screen and (max-width: 768px) {
           height: 40px;  // Smaller height for mobile screens
@@ -87,10 +87,10 @@ function Navbar() {
             <Logo src={logo} alt="Octaverse Logo" />
             <NavItems open={isOpen}>
                 <NavItem><a href="#home">Home</a></NavItem>
-                <NavItem><a href="#about">About Octaverse LLP</a></NavItem>
-                <NavItem><a href="#mission">Mission, Vision & Strengths</a></NavItem>
+                <NavItem><a href="#about">About </a></NavItem>
+                <NavItem><a href="#mission"> Vision & Strengths</a></NavItem>
                 <NavItem><a href="#services">Services</a></NavItem>
-                <NavItem><a href="#reasons">Why Choose Us</a></NavItem>
+              
                 <NavItem><a href="#contact">Contact</a></NavItem>
             </NavItems>
             <Hamburger onClick={() => setIsOpen(!isOpen)}>
