@@ -14,7 +14,7 @@ function About() {
                 <div className="bg-blue-100 p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-500 transform hover:-translate-y-2">
                     <FaRocket className="text-blue-600 mb-4" size={32} />
                     <h2 className="text-2xl font-semibold mb-4 text-blue-700">Introduction</h2>
-                    <p className="text-blue-600">"Established in 2021, Octaverse IT is a premier software solutions provider, driving next-gen business innovation through advanced technology, automation, and expert consulting."</p>
+                    <p className="text-blue-600">"Established in 2021, Octaverse IT is a premier software solutions provider, driving next-gen business innovation through advanced technology, automation and expert consulting."</p>
                 </div>
 
                 {/* Specialization Box */}
