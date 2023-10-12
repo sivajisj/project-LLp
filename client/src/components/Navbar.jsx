@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { CSSTransition } from 'react-transition-group';
 import logo from '../assets/11.png';
+import {Link} from 'react-scroll'
 import "../App.css"
 
 function Navbar() {
@@ -10,7 +11,8 @@ function Navbar() {
     const closeMobileMenu = () => setIsOpen(false);
 
     return (
-        <nav className="bg-[#0a192f] p-5 shadow-md relative text-white text-shadow">
+<nav className="bg-[#0a192f] p-5 shadow-md fixed top-0 left-0 w-full z-50 text-white text-shadow">
+
 
             <div className="max-w-7xl mx-auto flex justify-between items-center">
                 <div className="flex items-center space-x-2">
@@ -26,8 +28,15 @@ function Navbar() {
 
                 <ul className="hidden sm:flex space-x-8">
                     {/* Desktop Nav Items */}
-                    <li><a href="#home" className="text-white font-bold text-xl border-b-2 border-transparent hover:border-yellow-500">Home</a></li>
-    <li><a href="#about" className="text-white font-bold text-xl border-b-2 border-transparent hover:border-yellow-500">About</a></li>
+                    <li><a href="#home" className="text-white font-bold text-xl border-b-2 border-transparent hover:border-yellow-500">   
+                         <Link to="home"  smooth={true} offset={50} duration={500} >Home</Link>
+                     </a></li>
+                    <li><a href="#about" className="text-white font-bold text-xl border-b-2 border-transparent hover:border-yellow-500">
+                    <Link to="about"  smooth={true} offset={50} duration={500} >about</Link>
+                        </a></li>
+                    <li><a href="#services" className="text-white font-bold text-xl border-b-2 border-transparent hover:border-yellow-500">
+                       <Link to="vision"  smooth={true} offset={50} duration={500} > Vision</Link>
+                        </a></li>
     <li><a href="#services" className="text-white font-bold text-xl border-b-2 border-transparent hover:border-yellow-500">Services</a></li>
     <li><a href="#contact" className="text-white font-bold text-xl border-b-2 border-transparent hover:border-yellow-500">Contact</a></li>
                 </ul>

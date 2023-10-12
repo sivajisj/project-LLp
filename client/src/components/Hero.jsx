@@ -10,10 +10,10 @@ const Hero = () => {
     setFadeIn(true);
   }, []);
 
-  const heroClass = `bg-center bg-cover h-[630px] flex items-center justify-center transform transition-all duration-1000 ${fadeIn ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`;
+  const heroClass = `bg-center pt-20 tp bg-cover h-[630px] flex items-center justify-center transform transition-all duration-1000 ${fadeIn ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`;
 
   return (
-    <section className={heroClass} style={{ backgroundImage: `url(${heroImage})` }}>
+    <section className={heroClass} name='home' style={{ backgroundImage: `url(${heroImage})` }}>
       <div className="text-center">
       <h1 className="text-5xl font-bold mb-4 text-white">Octaverse LLP</h1>
     <h2 className="text-3xl mb-6 text-white">Steering the Next Generation of Business Innovation.</h2>
