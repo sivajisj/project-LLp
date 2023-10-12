@@ -7,12 +7,20 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        'cyan': {
-          '500': '#33ccff'
-          // ... add other shades if you want
+      animation: {
+        fadeInScale: 'fadeInScale 1s forwards',
+      },
+      keyframes: {
+        fadeInScale: {
+          '0%': {
+            opacity: '0',
+            transform: 'scale(0.9)'
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'scale(1)'
+          }
         }
-        // ... add other custom colors or modify existing ones
       }
     },
   },
