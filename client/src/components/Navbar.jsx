@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { CSSTransition } from 'react-transition-group';
-import logo from '../assets/11.png';
+import logo from '../assets/logoV.jpg';
 import { Link } from 'react-scroll'
 import "../App.css"
 
@@ -17,7 +17,7 @@ function Navbar() {
             <div className="max-w-7xl mx-auto flex justify-between items-center">
                 <div className="flex items-center space-x-2">
                     <img src={logo} alt="Company Logo" className="w-20 h-10 sm:w-18 sm:h-14" />
-                    <span className="text-white font-bold text-xl sm:text-2xl">Octaverse<kbd>-LLP</kbd> </span>
+                    <span className="text-white font-bold text-xl sm:text-2xl">Octaverse </span>
                 </div>
 
                 <div className="block sm:hidden">
