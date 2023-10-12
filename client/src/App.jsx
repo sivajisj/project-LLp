@@ -22,7 +22,7 @@ const App = () => {
   return (
     <>
      
-    {loading ? <LoadingAnimation /> : <MainContent/> }
+    {/* {loading ? <LoadingAnimation /> : <MainContent/> } */}
    
     <Navbar/>
     <Hero/>
