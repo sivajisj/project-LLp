@@ -1,20 +1,30 @@
 import React, { useState } from 'react';
-import { FaRocket } from 'react-icons/fa';
-import { FaEye } from 'react-icons/fa';
-
+import { FaRocket, FaEye } from 'react-icons/fa';
+import mission from "../assets/consult.jpeg"
 
 function Vision() {
   const [activeDropdown, setActiveDropdown] = useState(null);
 
+  const visionStyle = {
+    backgroundImage: `url(${mission})`,
+    backgroundSize: 'cover',  // ensures the image always covers the container
+    backgroundRepeat: 'no-repeat',  // prevents the image from repeating in the container
+    backgroundPosition: 'center',  // centers the image in the container
+  };
   return (
-    <div className="bg-[#F99417]    mt-5 p-10 rounded-lg shadow-md" name="vision">
-      <h1 className="text-4xl font-bold text-blue-700 mb-6 text-center">Mission & Vision</h1>
+    <div style={visionStyle} className="  h-full p-10 rounded-lg  shadow-md" name="vision">
+        <div className="flex justify-center items-center h-screen">  {/* h-screen gives it the height of the viewport */}
+            <h1 className="inline-block text-5xl font-bold text-black bg-blue-200 p-4 mb-6 text-center" style={{ textShadow: '2px 2px 2px rgba(0,0,0,0.2)' }}>
+              Mission & Vision
+            </h1>
+        </div>
+
 
       <div className="space-y-4">
         <div >
             <div className="flex justify-center"> <button
     onClick={() => setActiveDropdown(activeDropdown === "mission" ? null : "mission")}
-    className="bg-blue-500 flex items-center justify-center text-white text-xl px-8 py-4 rounded-xl 
+    className="bg-blue-500 flex items-center justify-center text-white text-3xl px-8 py-4 rounded-xl 
     transition-transform transition-300 transform hover:bg-blue-700 hover:scale-105 hover:shadow-lg
      focus:outline-none focus:ring focus:ring-blue-300">
     <FaRocket className="mr-2" /> Our Mission
@@ -35,7 +45,7 @@ function Vision() {
         <div className="flex justify-center">
         <button
           onClick={() => setActiveDropdown(activeDropdown === "vision" ? null : "vision")}
-          className="bg-blue-500 flex items-center justify-center text-white text-xl px-8 py-4 rounded-xl transition-transform transition-300 transform hover:bg-blue-700 hover:scale-105 hover:shadow-lg focus:outline-none focus:ring focus:ring-blue-300"
+          className="bg-blue-500 flex items-center justify-center text-white text-3xl px-8 py-4 rounded-xl transition-transform transition-300 transform hover:bg-blue-700 hover:scale-105 hover:shadow-lg focus:outline-none focus:ring focus:ring-blue-300"
 >
          <FaEye className="mr-2" /> Our Vision
         </button>

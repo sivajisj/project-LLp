@@ -3,9 +3,9 @@ import { FaRocket, FaWrench, FaBusinessTime, FaLightbulb } from 'react-icons/fa'
 
 function About() {
     return (
-        <div className=' bg-red-200 mt-20'>
+       
            <div name="about" className="bg-gray-100 pt-32 min-h-screen p-8">
-          <h1 className="text-4xl font-bold mb-10 text-center text-blue-600 transform transition-all duration-500 hover:scale-105 hover:text-blue-700">About Octaverse LLP</h1>
+          <h1 className="text-4xl font-bold my-10 text-center text-blue-600 transform transition-all duration-500 hover:scale-105 hover:text-blue-700">About Octaverse LLP</h1>
 
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -40,7 +40,7 @@ function About() {
 
             </div>
         </div>
-        </div>
+      
         
     );
 }

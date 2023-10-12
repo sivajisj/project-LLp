@@ -37,7 +37,9 @@ function Navbar() {
                     <li><a href="#services" className="text-white font-bold text-xl border-b-2 border-transparent hover:border-yellow-500">
                        <Link to="vision"  smooth={true} offset={50} duration={500} > Vision</Link>
                         </a></li>
-    <li><a href="#services" className="text-white font-bold text-xl border-b-2 border-transparent hover:border-yellow-500">Services</a></li>
+                    <li><a href="#services" className="text-white font-bold text-xl border-b-2 border-transparent hover:border-yellow-500">
+                            <Link to="services"  smooth={true} offset={50} duration={500} > Services</Link>                    
+                     </a></li>
     <li><a href="#contact" className="text-white font-bold text-xl border-b-2 border-transparent hover:border-yellow-500">Contact</a></li>
                 </ul>
             </div>
