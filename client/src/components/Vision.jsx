@@ -34,7 +34,7 @@ function Vision() {
           {activeDropdown === "mission" && (
             <div className="mt-4 p-4 bg-white rounded-md shadow">
               {/* Mission content */}
-              <p>Our primary mission at Octaverse LLP is to provide superior, thoroughly tested products and solutions for our valued customers. We pledge our commitment to delivering unparalleled business automation consultation, turnkey solutions, and unparalleled technical support. Our team, comprised of skilled consultants, engineers, developers, and executives, operates with cutting-edge managerial and IT tools, ensuring the punctual delivery of applications of the utmost quality.
+              <p className='vis'>At Octaverse LLP, our main goal is to deliver top-tier business automation consulting. We guide clients through the IT maze, supported by expert consultants and developers. Leveraging cutting-edge tools and our deep expertise, we craft and fine-tune premier solutions. Beyond just creating, we ensure unwavering technical support. Together, we pioneer the next wave of business automation, positioning our clients at technology's forefront.
 
               </p>
             </div>
@@ -54,7 +54,7 @@ function Vision() {
           {activeDropdown === "vision" && (
             <div className="mt-4 p-4 bg-white rounded-md shadow">
               {/* Vision content */}
-              <p>Octaverse LLP envisions being the foremost technology catalyst, forging the future path for our clients. We aspire to gain global recognition as an elite software development and technology provider, delivering inventive technical and business solutions. Our approach centers around adopting and implementing industry standards and leading-edge technology, ensuring our clients stay ahead in the constantly evolving technological landscape, receiving solutions that truly make a difference.</p>
+              <p className='vis'>Octaverse LLP envisions being the foremost technology catalyst, forging the future path for our clients. We aspire to gain global recognition as an elite software development and technology provider, delivering inventive technical and business solutions. Our approach centers around adopting and implementing industry standards and leading-edge technology, ensuring our clients stay ahead in the constantly evolving technological landscape, receiving solutions that truly make a difference.</p>
             </div>
           )}
         </div>

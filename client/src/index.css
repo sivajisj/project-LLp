@@ -23,3 +23,21 @@
     padding-top: 56px;
  height: 100vh;
 }
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.vis{
+    font-family: 'Chakra Petch', sans-serif;
+}

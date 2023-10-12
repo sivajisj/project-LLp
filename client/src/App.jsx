@@ -22,18 +22,15 @@ const App = () => {
   return (
     <>
      
-    {loading ? <LoadingAnimation /> :<div>
-      <Navbar/>
-    
+    {loading ? <LoadingAnimation /> : <MainContent/> }
+   
+    <Navbar/>
     <Hero/>
     <About/>
     <Vision/>
    <Services/>
    <Footer/>
    <Contact/>
-      </div>   }
-   
-   
     </>
   )
 }
@@ -51,7 +48,10 @@ function MainContent() {
   return (
     <div className="opacity-0 transform scale-90 transition-all duration-1000 ease-out animate-fadeInScale">
       {/* Rest of your main content */}
-      <h1>Your App Content Here</h1>
+      <h1 class="text-6xl font-bold text-center text-blue-600 transition-transform duration-500 ease-in-out transform hover:scale-105 shadow-2xl">
+    Your App Content Here
+</h1>
+
     </div>
   );
 }

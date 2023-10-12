@@ -16,37 +16,37 @@ function Services() {
         {/* Consulting */}
         <ServiceCard title="Consulting" imageSrc={consulting}>
           <ul className="mt-4  space-y-2">
-            <li>Business</li>
-            <li>Technology</li>
-            <li>Outsourcing</li>
-            <li>IT Landscape</li>
-            <li>Strategy and Architecture</li>
-            <li>Digital Transformation</li>
-            <li>Change and Learning</li>
+            <li> 🔸 Business</li>
+            <li> 🔸 Technology</li>
+            <li> 🔸 Outsourcing</li>
+            <li> 🔸 IT Landscape</li>
+            <li> 🔸 Strategy and Architecture</li>
+            <li> 🔸 Digital Transformation</li>
+            <li> 🔸 Change and Learning</li>
           </ul>
         </ServiceCard>
 
         {/* Software Solution */}
         <ServiceCard title="Software Solution" imageSrc={softwareSolutionImg}>
           <ul className="mt-4 space-y-2">
-            <li>SAP</li>
-            <li>Oracle</li>
-            <li>Microsoft Dynamics NAV</li>
-            <li>Microsoft Dynamics AX</li>
-            <li>Cloud Maintenance</li>
-            <li>Testng</li>
+            <li> 🔸 SAP</li>
+            <li> 🔸 Oracle</li>
+            <li> 🔸 Microsoft Dynamics NAV</li>
+            <li> 🔸 Microsoft Dynamics AX</li>
+            <li> 🔸 Cloud Maintenance</li>
+            <li> 🔸 Testng</li>
             
           </ul>
           
         </ServiceCard>
         <ServiceCard title="Outsourcing" imageSrc={Outsourcing}>
           <ul className="mt-4 space-y-2">
-            <li>Application Outsourcing</li>
-            <li>Enterprise Mobility</li>
-            <li>Resource & Staffing</li>
-            <li>Microsoft Dynamics AX</li>
-            <li>IT Infrastructure Services</li> 
-    <li>Managed Security Services</li> 
+            <li> 🔸 Application Outsourcing</li>
+            <li> 🔸 Enterprise Mobility</li>
+            <li> 🔸  Resource & Staffing</li>
+            <li> 🔸 Microsoft Dynamics AX</li>
+            <li> 🔸 IT Infrastructure Services</li> 
+    <li> 🔸 Managed Security Services</li> 
             
           </ul>
           
