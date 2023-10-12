@@ -9,7 +9,7 @@ import Outsourcing from '../assets/outsourcing.jpg';
 function Services() {
   return (
     <section id="services" name="services" className="bg-blue-100 py-24">
-      <h1 className="text-4xl font-bold text-center mb-12">SERVICES</h1>
+      <h1 className="text-4xl font-bold text-center mb-12 ">SERVICES</h1>
       
       <div className="flex flex-wrap justify-center">
         
@@ -52,7 +52,7 @@ function Services() {
           
         </ServiceCard>
 
-        {/* Additional services can be added in a similar manner */}
+        
         
       </div>
 
