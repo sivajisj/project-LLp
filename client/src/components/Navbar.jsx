@@ -30,35 +30,28 @@ function Navbar() {
                     {/* Desktop Nav Items */}
 
                     <li>
-                        <Link to="home" smooth={true} offset={50} duration={500} >
-                            <a href="#home" className="text-white font-bold text-xl border-b-2 border-transparent hover:border-yellow-500">
+                        <Link to="home" smooth={true} offset={50} duration={500} className="text-white cursor-pointer font-bold text-xl border-b-2 border-transparent hover:border-yellow-500" >
                                 Home
-                            </a>
                         </Link>
                     </li>
-
                     <li>
-                        <Link to="about" smooth={true} offset={50} duration={500} >
-                            <a href="#about" className="text-white font-bold text-xl border-b-2 border-transparent hover:border-yellow-500">about </a>
+                        <Link to="about" smooth={true} offset={50} duration={500} className="text-white cursor-pointer font-bold text-xl border-b-2 border-transparent hover:border-yellow-500" >
+                        About
                         </Link>
                     </li>
-                    
                     <li>
-                        <Link to="vision" smooth={true} offset={50} duration={500} > 
-                        <a href="#services" className="text-white font-bold text-xl border-b-2 border-transparent hover:border-yellow-500">Vision </a>
+                        <Link to="vision" smooth={true} offset={50} duration={500} className="text-white cursor-pointer font-bold text-xl border-b-2 border-transparent hover:border-yellow-500" >
+                        Vision
                         </Link>
-                   </li>
-
-                    <li>
-                        <Link to="services" smooth={true} offset={50} duration={500} >
-                        <a href="#services" className="text-white font-bold text-xl border-b-2 border-transparent hover:border-yellow-500">
-                             Services  
-                             </a> </Link>
                     </li>
                     <li>
-                         <Link to="contact" smooth={true} offset={50} duration={500} >
-                             <a href="#contact" className="text-white font-bold text-xl border-b-2 border-transparent hover:border-yellow-500">
-                        Contact</a>
+                        <Link to="services" smooth={true} offset={50} duration={500} className="text-white cursor-pointer font-bold text-xl border-b-2 border-transparent hover:border-yellow-500" >
+                        Services
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="contact" smooth={true} offset={50} duration={500} className=" cursor-pointer text-white font-bold text-xl border-b-2 border-transparent hover:border-yellow-500" >
+                        Contact us
                         </Link>
                     </li>
                 </ul>
