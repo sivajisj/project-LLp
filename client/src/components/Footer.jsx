@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/logoV.jpg';
+import logo from '../assets/octaverseLogo.jpg';
 import xlogo from '../assets/x.png'
 import glogo from '../assets/github.png'
 import ilogo from '../assets/ig.png'
@@ -45,7 +45,7 @@ function Footer() {
 
                     <div className="transition-transform duration-500 hover:scale-105">
                         <div className="flex items-center space-x-2 mb-6">
-                            <img src={logo} alt="Company Logo" className="w-20 h-10 sm:w-18 sm:h-14 transform hover:scale-110 transition-transform duration-300" />
+                            <img src={logo} alt="Company Logo" className="w-20 h-20 sm:w-18 sm:h-20 transform hover:scale-110 transition-transform duration-300" />
                             <span className="text-teal-200 font-bold text-xl sm:text-2xl">Octaverse</span>
                         </div>
 
