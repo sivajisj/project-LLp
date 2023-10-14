@@ -5,7 +5,6 @@ import glogo from '../assets/github.png'
 import ilogo from '../assets/ig.png'
 import lilogo from '../assets/linkedin.png'
 import flogo from '../assets/fb.png'
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 function Footer() {
     return (
@@ -39,7 +38,6 @@ function Footer() {
                             <li><a href="#" className="hover:text-gray-400">Privacy-Policy</a></li>
                             <li><a href="#" className="hover:text-gray-400">Terms & Conditions</a></li>
                             <li><a href="#" className="hover:text-gray-400">Cookie Policy</a></li>
-                            <li><a href="#" className="hover:text-gray-400">Dress</a></li>
                         </ul>
                     </div>
 

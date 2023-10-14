@@ -8,7 +8,7 @@ function WhyOctaverse() {
                 <img src={OctaverseImage} alt="Octaverse LLP" className="w-1/3 md:w-1/3 rounded shadow-lg mb-8 md:mb-0 md:mr-10 transition-transform duration-300 hover:scale-105" />
 
                 <div className="w-full md:w-1/2">
-                    <h2 className="text-4xl font-bold text-blue-700 mb-8">Why Octaverse LLP?</h2>
+                    <h2 className="text-4xl font-bold text-red-700 mb-8">Why Octaverse LLP?</h2>
                     <p className="text-blue-600 mb-6">We deeply resonate with the belief that our clients' triumphs pave the way for our achievements. With unwavering professionalism and consistently high standards, we ensure that the finest team of senior consultants is appointed to each project. Our understanding transcends beyond mere business needs; we speak your language, share your ethos, and aim to amplify your growth and revenue.</p>
 
                     <div className="mb-6">
