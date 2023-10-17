@@ -21,7 +21,7 @@ const Hero = () => {
     <p className="text-lg mb-8 mx-12 text-white">A blend of state-of-the-art business automation and innovative software solutions. Crafting a competitive edge in the digital age. Discover our uniqueness in bridging the gap between business and technology.</p>
     <button className="px-6 py-2  bg-[#98E4FF] text-black font-bold rounded-lg shadow-md hover:bg-blue-500 hover:text-white active:bg-blue-600 focus:outline-none focus:shadow-outline-blue transition duration-300">
 
-<Link to="learnMore" smooth={true} offset={50} duration={500} className="text-white hover:animate-pulse cursor-pointer font-bold text-xl border-b-2 border-transparent hover:border-yellow-500" >
+<Link to="learnMore" smooth={true} offset={50} duration={500} className="text-gray hover:animate-pulse cursor-pointer font-bold text-xl border-b-2 border-transparent hover:border-yellow-500" >
 Learn More
 </Link>
 </button>
