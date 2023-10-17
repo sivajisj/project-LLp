@@ -11,12 +11,12 @@ function Navbar() {
     const closeMobileMenu = () => setIsOpen(false);
 
     return (
-        <nav className="bg-[#0a192f] p-5 shadow-md fixed top-0 left-0 w-full z-50 text-white text-shadow">
+        <nav className="bg-[#0a192f] shadow-md fixed top-0 left-0 w-full z-50 text-white text-shadow">
 
 
             <div className="max-w-7xl mx-auto flex justify-between items-center">
                 <div className="flex items-center space-x-2">
-                    <img src={logo} alt="Company Logo" className="w-20 h-10 sm:w-18 sm:h-14" />
+                    <img src={logo} alt="Company Logo" className="w-20 h-20 sm:w-32 sm:h-24" />
                     <span className="text-white font-bold text-xl sm:text-2xl">Octaverse </span>
                 </div>
 

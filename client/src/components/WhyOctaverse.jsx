@@ -1,5 +1,5 @@
 import React from 'react';
-import OctaverseImage from '../assets/octaverseLogo.jpg'; 
+import OctaverseImage from '../assets/logoV.jpg'; 
 
 function WhyOctaverse() {
     return (

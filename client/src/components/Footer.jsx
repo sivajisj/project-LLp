@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/octaverseLogo.jpg';
+import logo from '../assets/logoV.jpg';
 import xlogo from '../assets/x.png'
 import glogo from '../assets/github.png'
 import ilogo from '../assets/ig.png'
