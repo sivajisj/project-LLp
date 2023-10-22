@@ -7,7 +7,7 @@ import Vision from './components/Vision'
 import Services from './components/Services'
 import WhyOctaverse from './components/WhyOctaverse'
 import Footer from './components/Footer'
-import Contact from './components/WhyOctaverse'
+import Contact from './components/contact'
 const MainComponent = () => {
   return (
    <>
