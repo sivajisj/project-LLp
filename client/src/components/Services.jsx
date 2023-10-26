@@ -17,6 +17,7 @@ import TestingImg from "../assets/Testing.jpg"
 import LampImg from "../assets/Lamp.jpg"
 import BigDataImg from "../assets/BigData.jpg"
 import CRMImg from "../assets/crm.jpg"
+import industryDomainsImg from '../assets/industryDomainsImg.jpg'
 import {Link} from 'react-scroll'
 
 
@@ -44,24 +45,46 @@ function Services() {
         {/* Software Solution */}
         <ServiceCard title="Software Solution" imageSrc={softwareSolutionImg}>
           <ul className="mt-4 space-y-2">
-            <li> 🔸 SAP</li>
-            <li> 🔸 Oracle</li>
-            <li> 🔸 Microsoft Dynamics NAV</li>
-            <li> 🔸 Microsoft Dynamics AX</li>
-            <li> 🔸 Cloud Maintenance</li>
-            <li> 🔸 Testng</li>
+            <li> 🔸 Application Programming</li>
+            <li> 🔸 Web Technologies </li>
+            <li> 🔸 Data Warehouse</li>
+            <li> 🔸 Business Intelligence Tools</li>
+            <li> 🔸 Data science ,AI & ML</li>
+            <li> 🔸 Blockchain</li>
+            <li> 🔸 DevOps</li>
+            <li> 🔸 Cloud Computing   </li>         
+            <li> 🔸 Embedded Systems & IOT</li>
           </ul>
         </ServiceCard>
+
+          {/* Industry domains */}
+          <ServiceCard title="Industry Domains" imageSrc={industryDomainsImg}>
+                  <ul className="mt-4 space-y-2">
+                    <li> 🔸 Healthcare and Pharmaceuticals</li>
+                    <li> 🔸 Finance and Banking</li>
+                    <li> 🔸 Retail and E-commerce</li>
+                    <li> 🔸 Manufacturing</li>
+                    <li> 🔸 Energy and Utilities</li>
+                    <li> 🔸 Telecommunications</li>
+                    <li> 🔸 Real Estate and Construction</li>
+                    <li> 🔸 Education and E-learning</li>
+                    <li> 🔸 Automotive</li>
+                  </ul>
+                </ServiceCard>
+
+        {/* Outsourcing */}
         <ServiceCard title="Outsourcing" imageSrc={Outsourcing}>
           <ul className="mt-4 space-y-2">
             <li> 🔸 Application Outsourcing</li>
             <li> 🔸 Enterprise Mobility</li>
             <li> 🔸 Resource & Staffing</li>
-            <li> 🔸 Microsoft Dynamics AX</li>
+          
             <li> 🔸 IT Infrastructure Services</li>
             <li> 🔸 Managed Security Services</li>
           </ul>
         </ServiceCard>
+
+      
       </div>
 
       <div className="container mx-auto p-8">
@@ -264,12 +287,12 @@ function Services() {
 }
 
 const ServiceCard = ({ title, children, imageSrc }) => (
-  <div className="bg-[#061446] text-white m-4 p-8 rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105 w-80">
+  <div className="bg-[#061446] text-white m-4 p-6 rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105 w-80">
     <h2 className="text-2xl font-bold mb-4">{title}</h2>
     <img src={imageSrc} alt={title} className="mb-4 w-full h-36 mx-auto" />
     {children}
 
-    <button className="flex animate-pulse mt-4 items-center px-6 py-2 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-300">
+    <button className="flex animate-pulse mt-4 justify-end items-center px-6 py-2 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-300">
      
       <Link to="explore" smooth={true} offset={50} duration={500} className="text-white hover:animate-pulse cursor-pointer font-bold text-xl border-b-2 border-transparent hover:border-yellow-500" >
       Explore Further
